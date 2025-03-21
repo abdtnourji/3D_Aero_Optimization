@@ -1,4 +1,3 @@
-```markdown
 # 3D Aircraft Trajectory Simulation & Optimization Platform
 
 ![Project Visualization](docs/simulation_demo.gif)
@@ -180,4 +179,3 @@ streamlit run visualization.py
 
 ### License
 Apache 2.0 License - See [LICENSE](LICENSE)
-```
