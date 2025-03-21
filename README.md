@@ -147,7 +147,31 @@ streamlit run visualization.py
 
 ![Trajectory Visualization](/image/newplot.png)
 
-![Result Data](/image/2025-03-21T11-41_export.csv)
+## Performance Metrics
+
+### Optimization Results Comparison
+| Metric              | Baseline         | Standard Optimization | AI-Enhanced Optimization |
+|---------------------|------------------|-----------------------|--------------------------|
+| Flight Time (s)     | 156.50          | 170.85               | 157.55                  |
+| Fuel Efficiency     | 0.75 l/m        | 0.82 l/m             | 0.93 l/m                |
+| Path Deviation      | 12,788.3m       | 12,788.3m            | 12,788.3m               |
+
+### Interpretation
+1. **Flight Time**:
+   - AI-Enhanced optimization shows minimal increase (1.05s) over baseline
+   - Standard optimization adds 14.35s, suggesting trade-off for other parameters
+
+2. **Fuel Efficiency**:
+   - AI method achieves 24% improvement over baseline
+   - Standard optimization shows 9.3% improvement
+
+3. **Path Deviation**:
+   - Identical values across methods indicate:
+     - Constant environmental conditions (e.g., fixed wind patterns)
+     - Potential need for enhanced deviation metrics
+     - Possible constraint prioritization in optimizations
+
+**Key Insight**: The AI-enhanced method successfully balances fuel efficiency with minimal flight time penalty, while standard optimization appears to prioritize different objectives. The identical path deviations suggest this metric may not have been a optimization target or requires refined measurement.
 
 
 ## Future Work & Contributions <a name="future-work--contributions"></a>
