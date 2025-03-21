@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+plotly
+streamlit
+scikit-learn
+tensorflow   # or torch if using PyTorch for RL
+stable-baselines3  # if you expand the AI module
