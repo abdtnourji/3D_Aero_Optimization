@@ -145,7 +145,7 @@ streamlit run visualization.py
 - Interactive 3D trajectory plotting
 - Performance metric dashboards
 
-![Trajectory Visualization](/images/newplot.png)
+![Trajectory Visualization](/image/newplot.png)
 
 ## Future Work & Contributions <a name="future-work--contributions"></a>
 
